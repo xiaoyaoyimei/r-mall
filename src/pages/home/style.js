@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const HomeWrapper = styled.div `
-	width:960px;
+	width:1200px;
 	margin:20px auto 0;
 	height:100%;
 	.img{

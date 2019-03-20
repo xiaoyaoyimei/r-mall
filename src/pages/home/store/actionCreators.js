@@ -13,7 +13,7 @@ export const bannerList=(result)=>({
 export const getBanner=()=>{
 	return (dispatch)=>{
 		axios.get('/api/index/poster').then((res)=>{
-			dispatch(bannerList(res.data))
+			dispatch(bannerList(res.data.object))
 		})
 	}
 }

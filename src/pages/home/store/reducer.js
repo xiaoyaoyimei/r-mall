@@ -15,7 +15,7 @@ export default(state=defaultState,action)=>{
 		'articlePage': fromJS(action.nextpage),
 		'totalpage':fromJS(action.totalpage)
 		});
-		case constants.BANNER_LIST:	return state.set('bannerList', action.data);
+		case constants.BANNER_LIST:	return state.set('bannerList', fromJS(action.result))
 		default:return state;
 	}
 

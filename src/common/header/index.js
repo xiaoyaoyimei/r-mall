@@ -14,8 +14,6 @@ import {
 } from './style';
 
 class Header extends Component {
-
-
 	render() {
 		const { login, logout } = this.props;
 		return (
@@ -25,7 +23,7 @@ class Header extends Component {
 					<NavItem className='left'>合作招商</NavItem>|
 					<NavItem className='left'>操作指南</NavItem>|
 					<NavItem className='right'>
-						<i className="iconfont">&#xe63b;</i> 
+					<Link to='/cart'>	<i className="iconfont">&#xe63b;</i></Link>
 					</NavItem>
 								<NavItem className='right'>注册 </NavItem>
 					{

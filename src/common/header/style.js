@@ -24,14 +24,13 @@ export const Logo = styled.div`
 export const Nav = styled.div`
 	width: 1200px;
 	height: 100%;
-	padding-right: 70px;
 	box-sizing: border-box;
 	margin: 0 auto;
    color:#ccc;
 `;
 
 export const NavItem = styled.div`
-	line-height: 56px;
+	line-height: 50px;
 	padding: 0 15px;
 	font-size: 16px;
 	color: #fff;

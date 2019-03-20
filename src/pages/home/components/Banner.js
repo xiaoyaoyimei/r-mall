@@ -1,18 +1,34 @@
 import React,{Component} from 'react';
 import { Carousel } from 'antd';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import '../../../base/config.dev';
 function onChange(a, b, c) {
   console.log(a, b, c);
 }
 class Banner extends Component{
 	render(){
+    const {
+      list
+    } = this.props;
+    console.log(list)
 		return (
-			<div><Carousel afterChange={onChange} >
-    <div><h3>1</h3></div>
-    <div><h3>2</h3></div>
-    <div><h3>3</h3></div>
-    <div><h3>4</h3></div>
-  </Carousel></div>
+			<div>
+      <Carousel afterChange={onChange} >
+          {
+          list.map((item, index) => {
+              return(
+                <Link  key={index} to={'/detail/' + item.get('linkUrl')}>
+                	<img alt="小图片" className="r" src={global.constants.baseUrl+item.get('imgUrl')}/>
+                  </Link>
+                )
+               })
+           }
+         </Carousel></div>
 		)
 	}
 }
-export default Banner;
+const mapState = (state) => ({
+	list: state.getIn(['home', 'bannerList']),
+});
+export default connect(mapState, null)(Banner);
