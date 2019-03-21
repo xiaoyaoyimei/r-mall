@@ -1,9 +1,11 @@
-import axios from 'axios';
+import axios from '../../../http';
 import * as constants from './constants';
 import { message } from 'antd';
-const changeLogin = () => ({
+const changeLogin = (t,u) => ({
 	type: constants.CHANGE_LOGIN,
-	value: true
+	value: true,
+	token:t,
+	loginUserId:u
 })
 
 export const logout = () => ({
@@ -13,11 +15,16 @@ export const logout = () => ({
 export const login = (accout, password) => {
 	return (dispatch) => {
 		axios.post('/api/customer/login',{"loginName":accout,"passWord":password}).then((res) => {
-			const result = res.data;
-			if (result.code==='200') {
-				dispatch(changeLogin())
+			if (res.code===200) {
+				localStorage.setItem('token',res.object.token);
+				localStorage.setItem('loginUserId',res.object.loginUserId);
+					dispatch(changeLogin(res.object.token,res.object.loginUserId))
+			//	console.log(res.object)
+
 			}else {
-			message.error(result.object);
+					localStorage.removeItem('token');
+					localStorage.removeItem('loginUserId');
+	//		message.error(res.object);
 			}
 		})
 	}
