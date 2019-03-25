@@ -9,7 +9,7 @@ import {
   LoginBox
 } from './style';
 import {
-  Form, Icon, Input, Button, Checkbox,
+  Form, Icon, Input, Button,
 } from 'antd';
 class Login extends PureComponent {
 	handleSubmit = (e) => {

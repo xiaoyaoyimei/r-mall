@@ -13,7 +13,7 @@ console.log(loginStatus)
     <OneWrap>
       <Main> <Link to="/"><Logo /></Link><Span>我的购物车</Span></Main>
       </OneWrap>
-      <NoLogin><h1>您尚未登录</h1><button>去登录</button></NoLogin>
+      <NoLogin><h1>您尚未登录</h1><button><Link to="/login">去登录</Link></button></NoLogin>
       </div>
     )}
     else{

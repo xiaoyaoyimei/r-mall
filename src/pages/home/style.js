@@ -63,3 +63,85 @@ export const LoadMore = styled.div `
     color: #fff;
     background-color: #a5a5a5;
     display: block;`
+		export const Ul=styled.div`
+		    margin-top: 10px;
+				margin-left:-11px;
+				overflow:hidden;
+				.li{
+					float: left;
+    position: relative;
+    cursor: pointer;
+		margin-left:11px;
+				}
+				.normol{
+					font-size: 24px;
+color: #fff;
+position: absolute;
+top: 35px;
+left: 40px;
+				}
+		`
+		export const Hot=styled.div`
+		padding-top: 35px;
+padding-bottom: 8px;
+font-size: 25px;
+color: #313131;
+`
+export const One=styled.ul`
+overflow:hidden;
+ li{
+	 text-align: center;
+font-size: 13px;
+position: relative;
+width: 292px;
+height: 370px;
+cursor: pointer;
+float: left;
+border: 1px solid transparent;
+transition: border-color .1s ease;
+ }
+ li:hover{
+    border-color: #ddd;
+
+ }
+ em{
+	 position: absolute;
+left: 15px;
+top: 15px;
+width: 51px;
+height: 20px;
+text-align: center;
+border: 2px solid #080103;
+color: #000;
+font-size: 11px;
+font-weight: 700;
+line-height: 17px;
+ }
+ a{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+ }
+ img{
+	 max-height: 290px;
+max-width: 290px;
+display: block;
+ }
+ h6{
+	 color: #111;
+    font-size: 13px;
+ }
+ p{
+	 color: #888;
+margin-top: 5px;
+margin-bottom: 10px;
+text-align: left;
+padding: 0 5px;
+ }
+ span{
+	     font-weight: 700;
+			     color: #ff0037;
+ }
+
+`

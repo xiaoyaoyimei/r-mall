@@ -5,10 +5,23 @@ const defaultState=fromJS({
 	articleList:[],
 	recommondList:[],
 	articlePage:0,
-	totalpage:0
+	totalpage:0,
+	poster:[],
+	basictype:[],
+	hotitem:[]
 })
+const changeHomeData = (state, action) => {
+	return state.merge({
+		poster: fromJS(action.poster),
+		basictype: fromJS(action.basictype),
+		hotitem: fromJS(action.hotitem)
+	});
+};
+
 export default(state=defaultState,action)=>{
 	switch(action.type){
+		case constants.CHANGE_HOME_DATA:
+	return changeHomeData(state, action);
 	    case constants.ACTICLE_LIST:
 	    return  state.merge({
 		'articleList': fromJS(action.result),

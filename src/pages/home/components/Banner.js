@@ -29,6 +29,6 @@ class Banner extends Component{
 	}
 }
 const mapState = (state) => ({
-	list: state.getIn(['home', 'bannerList']),
+	list: state.getIn(['home', 'poster']),
 });
 export default connect(mapState, null)(Banner);

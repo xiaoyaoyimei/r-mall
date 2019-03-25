@@ -6,14 +6,20 @@ export const acticleList=(result,nextpage,totalpage)=>({
 	nextpage,
 	totalpage
 })
+const changHomeData = (result) => ({
+	type: constants.CHANGE_HOME_DATA,
+	poster: result.poster,
+	basictype: result.basictype,
+	hotitem: result.hotitem
+});
 export const bannerList=(result)=>({
 	type:constants.BANNER_LIST,
 	result
 })
-export const getBanner=()=>{
+export const getHome=()=>{
 	return (dispatch)=>{
-		axios.get('/api/index/poster').then((res)=>{
-			dispatch(bannerList(res.data.object))
+		axios.get('/api/home.json').then((res)=>{
+	    dispatch(changHomeData(res.data.data))
 		})
 	}
 }
