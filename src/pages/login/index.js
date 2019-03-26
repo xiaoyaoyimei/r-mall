@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import { Redirect,Link} from 'react-router-dom';
 import { connect } from 'react-redux';
 import { actionCreators } from './store';
+import cookie from 'react-cookies';
 import {
 	LoginWrap,
 	Logo,
@@ -70,8 +71,16 @@ class Login extends PureComponent {
 }
 
 const mapState = (state) => ({
-	loginStatus: state.getIn(['login', 'login'])
+	loginStatus: cookie.load('login')
 })
+// const loginUser = () => {
+//     return cookie.load('current-user');
+// };
+//
+// const isLogin = () => {
+//     const user = loginUser();
+//     return typeof (user) === 'object';
+// };
 
 const mapDispatch = (dispatch) => ({
 	login(accountElem, passwordElem){

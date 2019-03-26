@@ -6,13 +6,14 @@ import React, {
 import { Provider } from 'react-redux'
 import { GlobalStyle } from './style';
 import { GlobalFont } from './static/iconfont/iconfont';
-import { BrowserRouter, Route,Switch ,Redirect,NavLink} from 'react-router-dom';
+import { BrowserRouter, Route,Switch ,Redirect} from 'react-router-dom';
 import store from './store';
 import Header from './common/header/index';
 import Nav from './common/nav/index';
 import Login from './pages/login/index';
 import CartOne from './pages/cartOne/index'
 import Home from './pages/home/index';
+
 const PrimaryLayout = props => {
   return (
     <div className="primary-layout">

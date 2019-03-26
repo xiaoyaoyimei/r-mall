@@ -1,27 +1,29 @@
 
 import React, {Component} from 'react';
-import {Logo,OneWrap,Main,Span,NoLogin} from './style';
+import {Logo,OneWrap,Main,Span,NoLogin,Empty} from './style';
 import { Link} from 'react-router-dom';
 import { connect } from 'react-redux';
+import cookie from 'react-cookies';
+import bgPic from '../../static/cartempty.png';
 class CartOne extends Component {
   render() {
    	const { loginStatus } = this.props;
-console.log(loginStatus)
-    	if (!loginStatus) {
         	return(
-    <div>
+       <div>
     <OneWrap>
       <Main> <Link to="/"><Logo /></Link><Span>我的购物车</Span></Main>
       </OneWrap>
-      <NoLogin><h1>您尚未登录</h1><button><Link to="/login">去登录</Link></button></NoLogin>
+      {
+        loginStatus ?
+        <Empty>
+        <div className="cartTablenull">  <img src={bgPic}/><span>您的购物车还是空的！  <Link className="go" to='/'>马上去购物</Link></span></div></Empty> :
+        <NoLogin><h1>您尚未登录</h1><button><Link to="/login">去登录</Link></button></NoLogin>
+      }
       </div>
-    )}
-    else{
-      return (<div>您的购物车暂时无数</div>)
-    }
+    )
   }
 }
 const mapState = (state) => ({
-	loginStatus: state.getIn(['login', 'login'])
+	loginStatus: cookie.load('login')
 })
 export default connect(mapState,null)(CartOne);

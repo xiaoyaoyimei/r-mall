@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { CSSTransition } from 'react-transition-group';
+
 import { actionCreators } from './store';
 import { actionCreators as loginActionCreators } from '../../pages/login/store'
+import cookie from 'react-cookies';
 import {
 	HeaderWrapper,
-	Logo,
+
 	Nav,
 	NavItem,
-	Addition,
-	Button
+
+
 } from './style';
 
 class Header extends Component {
 	render() {
 		const { login, logout } = this.props;
+
 		return (
 			<HeaderWrapper>
 				<Nav>
@@ -53,7 +55,7 @@ const mapStateToProps = (state) => {
 		page: state.getIn(['header', 'page']),
 		totalPage: state.getIn(['header', 'totalPage']),
 		mouseIn: state.getIn(['header', 'mouseIn']),
-		login: state.getIn(['login', 'login'])
+		login: cookie.load('login')
 	}
 }
 

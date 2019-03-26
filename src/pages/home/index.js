@@ -4,12 +4,11 @@ import React, {
 import { Link} from 'react-router-dom';
 import {
 	HomeWrapper,
-	HomeLeft,
-	HomeRight,Ul,Hot,One
+
+Ul,Hot,One
 } from './style';
 import Banner from './components/Banner';
-import List from './components/List';
-import Recommend from './components/Recommend';
+
 import { connect } from 'react-redux';
 import{actionCreators} from './store'
 class Home extends Component {
