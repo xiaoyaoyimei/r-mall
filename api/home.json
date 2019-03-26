@@ -1,0 +1,265 @@
+{
+  "code" : 200,
+  "data":{
+    "poster" : [ {
+      "id" : "27b719b523ff43bca581eda0bf1f757c",
+      "rowIndex" : "1",
+      "imgUrl" : "poster/27b719b523ff43bca581eda0bf1f757c20181018110450188.jpg",
+      "phoneUrl" : "poster/27b719b523ff43bca581eda0bf1f757c20181018110537000.jpg",
+      "linkUrl" : "https://shop.dxracer.cn/#/sort/sortDetail?id=db048d66b89a417fbe2336bbab13381e",
+      "title1" : "",
+      "title2" : "",
+      "title3" : "",
+      "color" : "",
+      "status" : "B",
+      "createTime" : "2018-10-17 18:23:19"
+    } ],
+    "basictype": [ {
+    "row_num" : 1,
+    "img_url" : "navigation/aae0e961287b4e388526be39d9e0e33c20181018110845827.jpg",
+    "list" : {
+      "type_name" : "电竞座椅",
+      "create_time" : "2018-10-17 18:11:06",
+      "img_url" : "navigation/aae0e961287b4e388526be39d9e0e33c20181018110845827.jpg",
+      "catalog" : "7b6f936a6e6642a29e4390d82bf262bf",
+      "id" : "aae0e961287b4e388526be39d9e0e33c",
+      "row_num" : 1,
+      "type" : "A",
+      "status" : "B"
+    }
+  }, {
+    "row_num" : 2,
+    "img_url" : "navigation/cb0a0222dc4449618d91879de96a832b20181018110915749.jpg",
+    "list" : {
+      "type_name" : "办公座椅",
+      "create_time" : "2018-10-17 18:11:29",
+      "img_url" : "navigation/cb0a0222dc4449618d91879de96a832b20181018110915749.jpg",
+      "catalog" : "94ab96f22eb94d11b264a481af22c0eb",
+      "id" : "cb0a0222dc4449618d91879de96a832b",
+      "row_num" : 2,
+      "type" : "A",
+      "status" : "B"
+    }
+  }, {
+    "row_num" : 3,
+      "img_url" : "navigation/0df74e41daf741d68743a41d9920816520181018110923936.jpg",
+    "list" : {
+      "type_name" : "家居座椅",
+      "create_time" : "2018-10-17 18:12:04",
+      "img_url" : "navigation/0df74e41daf741d68743a41d9920816520181018110923936.jpg",
+      "catalog" : "f11cf4e050954e0ba4027edda58b593c",
+      "id" : "0df74e41daf741d68743a41d99208165",
+      "row_num" : 3,
+      "type" : "A",
+      "status" : "B"
+    }
+  }, {
+    "row_num" : 4,
+      "img_url" : "navigation/d41370306443417c9413bef427593a9620181018110930874.jpg",
+    "list" : {
+      "type_name" : "精选配件",
+      "create_time" : "2018-10-17 18:12:46",
+      "img_url" : "navigation/d41370306443417c9413bef427593a9620181018110930874.jpg",
+      "catalog" : "f1d29c1e78dc4209a605f64320bf03ba",
+      "id" : "d41370306443417c9413bef427593a96",
+      "row_num" : 4,
+      "type" : "A",
+      "status" : "B"
+    }
+  } ],
+  "hotitem":[ {
+    "image" : [ {
+      "id" : "5b3e7e66a07340aeb79cc6ecdccca266",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "RZ85",
+      "indexNum" : 3,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X5145b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+      "smallImg" : "modelcolor/84X845b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+      "originImg" : "modelcolor/800X8005b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg"
+    }, {
+      "id" : "b4ba01b4c82441d887ef3b2c15fd958d",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "FL186",
+      "indexNum" : 1,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+      "smallImg" : "modelcolor/84X84b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+      "originImg" : "modelcolor/800X800b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg"
+    }, {
+      "id" : "b8fdbf0f9c4044369fcbc7568a4cbc77",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "VC06",
+      "indexNum" : 4,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+      "smallImg" : "modelcolor/84X84b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+      "originImg" : "modelcolor/800X800b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg"
+    }, {
+      "id" : "d28124bc35004452b6b65de01337ff55",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "KS186",
+      "indexNum" : 2,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+      "smallImg" : "modelcolor/84X84d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+      "originImg" : "modelcolor/800X800d28124bc35004452b6b65de01337ff5520181017155931.jpg"
+    } ],
+    "activity" : "",
+    "row_num" : 1,
+    "list" : {
+      "describe1" : "LPL官方指定座椅",
+      "describe2" : "",
+      "img_url" : "navigation/ada4c576adf8415693c3bfb08f38cbaa20181026124804631.jpg",
+      "createTime" : "2018-10-17 18:20:39",
+      "product_id" : "db048d66b89a417fbe2336bbab13381e",
+      "id" : "ada4c576adf8415693c3bfb08f38cbaa",
+      "row_num" : 1,
+      "type" : "A",
+      "sale_price" : 1699.00,
+      "model_no" : "OH/FL186",
+      "brand_model" : "VC05",
+      "status" : "B"
+    }
+  }, {
+    "image" : [ {
+      "id" : "2f83901523ad430c996cd45f8e27102a",
+      "productModelId" : "f0b19bbedd37474685bda4b165eab30d",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "黑蓝色",
+      "indexNum" : 3,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X5142f83901523ad430c996cd45f8e27102a20181017180617.jpg",
+      "smallImg" : "modelcolor/84X842f83901523ad430c996cd45f8e27102a20181017180617.jpg",
+      "originImg" : "modelcolor/800X8002f83901523ad430c996cd45f8e27102a20181017180617.jpg"
+    }, {
+      "id" : "324a31e9826d4887a5bd5a18d387c080",
+      "productModelId" : "f0b19bbedd37474685bda4b165eab30d",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "黑红色",
+      "indexNum" : 2,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514324a31e9826d4887a5bd5a18d387c08020181017180601.jpg",
+      "smallImg" : "modelcolor/84X84324a31e9826d4887a5bd5a18d387c08020181017180601.jpg",
+      "originImg" : "modelcolor/800X800324a31e9826d4887a5bd5a18d387c08020181017180601.jpg"
+    }, {
+      "id" : "5b0ec49e05c8403aa5a8c3f0f7d72064",
+      "productModelId" : "f0b19bbedd37474685bda4b165eab30d",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "黑橙色",
+      "indexNum" : 1,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X5145b0ec49e05c8403aa5a8c3f0f7d7206420181020132116.jpg",
+      "smallImg" : "modelcolor/84X845b0ec49e05c8403aa5a8c3f0f7d7206420181020132116.jpg",
+      "originImg" : "modelcolor/800X8005b0ec49e05c8403aa5a8c3f0f7d7206420181020132116.jpg"
+    } ],
+    "activity" : "",
+    "row_num" : 2,
+    "list" : {
+      "describe1" : "Faker专用座椅",
+      "describe2" : "FE0二代升级款",
+      "img_url" : "navigation/ad7d9559b32d47049038fbab7f3dfd5320181017181823326.jpg",
+      "createTime" : "2018-10-17 18:18:23",
+      "product_id" : "f0b19bbedd37474685bda4b165eab30d",
+      "id" : "ad7d9559b32d47049038fbab7f3dfd53",
+      "row_num" : 2,
+      "type" : "A",
+      "sale_price" : 1599.00,
+      "model_no" : "OH/FH12",
+      "brand_model" : "FH12",
+      "status" : "B"
+    }
+  }, {
+    "image" : [ {
+      "id" : "be200b60fb3740fc89108216de9abb51",
+      "productModelId" : "bc72e7ee45be4309ae345e9cb530618e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "香槟",
+      "indexNum" : 2,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514be200b60fb3740fc89108216de9abb5120181017164928.jpg",
+      "smallImg" : "modelcolor/84X84be200b60fb3740fc89108216de9abb5120181017164928.jpg",
+      "originImg" : "modelcolor/800X800be200b60fb3740fc89108216de9abb5120181017164928.jpg"
+    }, {
+      "id" : "d49cf832fbfc41efb78b45d77ce11db9",
+      "productModelId" : "bc72e7ee45be4309ae345e9cb530618e",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "萤粉",
+      "indexNum" : 1,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X514d49cf832fbfc41efb78b45d77ce11db920181017164916.jpg",
+      "smallImg" : "modelcolor/84X84d49cf832fbfc41efb78b45d77ce11db920181017164916.jpg",
+      "originImg" : "modelcolor/800X800d49cf832fbfc41efb78b45d77ce11db920181017164916.jpg"
+    } ],
+    "activity" : "",
+    "row_num" : 3,
+    "list" : {
+      "describe1" : "女神系列座椅",
+      "describe2" : "现代居家首选",
+      "img_url" : "navigation/edf73031cf774e9f91c2be052420ecf620181017181949608.jpg",
+      "createTime" : "2018-10-17 18:19:49",
+      "product_id" : "bc72e7ee45be4309ae345e9cb530618e",
+      "id" : "edf73031cf774e9f91c2be052420ecf6",
+      "row_num" : 3,
+      "type" : "A",
+      "sale_price" : 1599.00,
+      "model_no" : "OH/RZ95",
+      "brand_model" : "RZ95",
+      "status" : "B"
+    }
+  }, {
+    "image" : [ {
+      "id" : "15d387546111461ebabd2e0b0ed07de0",
+      "productModelId" : "0df036e1e0114a11b5f60301a1777cc4",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "基础款",
+      "indexNum" : 1,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X51415d387546111461ebabd2e0b0ed07de020181017163448.jpg",
+      "smallImg" : "modelcolor/84X8415d387546111461ebabd2e0b0ed07de020181017163448.jpg",
+      "originImg" : "modelcolor/800X80015d387546111461ebabd2e0b0ed07de020181017163448.jpg"
+    }, {
+      "id" : "41ad820e60b242fba12a398c45470930",
+      "productModelId" : "0df036e1e0114a11b5f60301a1777cc4",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "奢华款",
+      "indexNum" : 3,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X51441ad820e60b242fba12a398c4547093020181017163529.jpg",
+      "smallImg" : "modelcolor/84X8441ad820e60b242fba12a398c4547093020181017163529.jpg",
+      "originImg" : "modelcolor/800X80041ad820e60b242fba12a398c4547093020181017163529.jpg"
+    }, {
+      "id" : "9d1df4c30f924a56b70ff124ee688ff7",
+      "productModelId" : "0df036e1e0114a11b5f60301a1777cc4",
+      "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+      "modelAttrValue" : "升级款",
+      "indexNum" : 2,
+      "isDeleted" : "N",
+      "listImg" : "modelcolor/514X5149d1df4c30f924a56b70ff124ee688ff720181017163507.jpg",
+      "smallImg" : "modelcolor/84X849d1df4c30f924a56b70ff124ee688ff720181017163507.jpg",
+      "originImg" : "modelcolor/800X8009d1df4c30f924a56b70ff124ee688ff720181017163507.jpg"
+    } ],
+    "activity" : "",
+    "row_num" : 4,
+    "list" : {
+      "describe1" : "吃鸡元素豪华座椅",
+      "describe2" : "",
+      "img_url" : "navigation/1d96d38028d2484190ae0f1e23e6010220181128171707319.jpg",
+      "createTime" : "2018-10-17 18:14:28",
+      "product_id" : "0df036e1e0114a11b5f60301a1777cc4",
+      "id" : "1d96d38028d2484190ae0f1e23e60102",
+      "row_num" : 4,
+      "type" : "A",
+      "sale_price" : 1299.00,
+      "model_no" : "OH/RQ88",
+      "brand_model" : "RW88",
+      "status" : "B"
+    }
+  } ]
+  }
+
+}

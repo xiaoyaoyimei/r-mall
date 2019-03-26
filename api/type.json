@@ -1,0 +1,49 @@
+[ {
+  "id" : "23251baca0a34ea4bbb321d8a235fdb8",
+  "typeName" : "LPL赛事用椅",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 1
+}, {
+  "id" : "7b6f936a6e6642a29e4390d82bf262bf",
+  "typeName" : "电竞座椅",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 2
+}, {
+  "id" : "94ab96f22eb94d11b264a481af22c0eb",
+  "typeName" : "办公座椅",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 3
+}, {
+  "id" : "f11cf4e050954e0ba4027edda58b593c",
+  "typeName" : "家居座椅",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 4
+}, {
+  "id" : "f1e3e761ab6b4a659e676e83bae636a4",
+  "typeName" : "粉丝福利",
+  "parentId" : "",
+  "status" : "N",
+  "rowIndex" : 5
+}, {
+  "id" : "155b2db7332846aaa7693acf5a479418",
+  "typeName" : "电脑桌",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 6
+}, {
+  "id" : "f1d29c1e78dc4209a605f64320bf03ba",
+  "typeName" : "精选配件",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 7
+}, {
+  "id" : "81d83f7152454b6c99e18d0cb1b113ca",
+  "typeName" : "活动专款",
+  "parentId" : "",
+  "status" : "Y",
+  "rowIndex" : 8
+} ]
