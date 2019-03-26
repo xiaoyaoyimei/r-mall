@@ -25,7 +25,7 @@ const PrimaryLayout = props => {
 					<Route path="/cart"  component={cartLayout} />
 					<Route path="/users"  component={UserSubLayout} />
           <Route path="/login"  component={Login} />
-          <Redirect to="/" />
+          <Redirect to="/login" />
         </Switch>
       </main>
     </div>

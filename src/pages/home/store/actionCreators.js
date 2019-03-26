@@ -18,7 +18,7 @@ export const bannerList=(result)=>({
 })
 export const getHome=()=>{
 	return (dispatch)=>{
-		axios.get('/api/home.json').then((res)=>{
+		axios.get('api/home.json').then((res)=>{
 	    dispatch(changHomeData(res.data.data))
 		})
 	}

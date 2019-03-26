@@ -16,7 +16,7 @@ export const logout = () => ({
 export const login = (accout, password) => {
 	return (dispatch) => {
 		//假登录（故任何用户名密码均可）
-		axios.get('/api/auth.json',{"loginName":accout,"passWord":password}).then((res) => {
+		axios.get('api/auth.json',{"loginName":accout,"passWord":password}).then((res) => {
 			if (res.code===200) {
 				localStorage.setItem('token',res.object.token);
 				localStorage.setItem('loginUserId',res.object.userId);
