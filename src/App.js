@@ -6,26 +6,30 @@ import React, {
 import { Provider } from 'react-redux'
 import { GlobalStyle } from './style';
 import { GlobalFont } from './static/iconfont/iconfont';
-import { BrowserRouter, Route,Switch ,Redirect} from 'react-router-dom';
+import { Router , Route,Switch ,Redirect} from 'react-router-dom';
+import createHistory from 'history/createHashHistory'
 import store from './store';
 import Header from './common/header/index';
 import Nav from './common/nav/index';
 import Login from './pages/login/index';
 import CartOne from './pages/cartOne/index'
 import Home from './pages/home/index';
-
+import { homepage } from '../package.json';
+console.log(homepage)
+const history = createHistory({
+    basename: homepage
+  })
 const PrimaryLayout = props => {
   return (
     <div className="primary-layout">
-
       <main>
         <Switch>
-          <Route path="/"  exact component={HomePage} />
+          <Route path="/"  exact component={HomeP} />
 					<Route path="/layout"  component={HomeLayout} />
 					<Route path="/cart"  component={cartLayout} />
 					<Route path="/users"  component={UserSubLayout} />
           <Route path="/login"  component={Login} />
-          <Redirect to="/login" />
+          <Redirect to="/" />
         </Switch>
       </main>
     </div>
@@ -34,7 +38,7 @@ const PrimaryLayout = props => {
 const PrimaryHeader = () => (
 <div><Header /><Nav /></div>
 )
-const HomePage=()=>{
+const HomeP=()=>{
 	return(
 		<div>
 			<PrimaryHeader />
@@ -48,7 +52,6 @@ const cartLayout=({match})=>{
 		  <Header />
 	  	<Switch>
 			<Route exact path={`${match.path}`} component={CartOne} />
-
 		</Switch>
 		</div>
 	)
@@ -108,9 +111,9 @@ class App extends Component {
 			<Fragment>
 			<GlobalStyle/>
 			<GlobalFont/>
-			    <BrowserRouter>
+			    <Router history={history}>
       		<PrimaryLayout />
-      	</BrowserRouter>
+      	</Router>
 				</Fragment>
 				</Provider>);
 	}

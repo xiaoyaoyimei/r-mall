@@ -54,8 +54,6 @@ class Login extends PureComponent {
 				 <Button type="primary" htmlType="submit" className="login-form-button">
 					登录
 				 </Button>
-          <a className="login-form-forgot" href="">忘记密码</a>
-			 <a href="" className="fr">去注册></a>
 			 </Form.Item>
 		 </Form>
 

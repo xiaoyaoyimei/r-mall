@@ -1,6 +1,5 @@
 import { fromJS } from 'immutable';
 import * as constants from './constants';
-import cookie from 'react-cookies';
 const defaultState = fromJS({
 	login: false,
 	token:'',

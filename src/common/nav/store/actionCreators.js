@@ -7,7 +7,7 @@ const setList = (data) => ({
 });
 export const getList = () => {
 	return (dispatch) => {
-		axios.get('/api/type.json').then((res) => {
+		axios.get('api/type.json').then((res) => {
 			const data = res.data;
 			dispatch(setList(data));
 		}).catch(() => {
