@@ -11,6 +11,7 @@ class Banner extends Component{
     const {
       list
     } = this.props;
+    console.log(list)
 		return (
 			<div>
       <Carousel afterChange={onChange} >
@@ -23,7 +24,8 @@ class Banner extends Component{
                 )
                })
            }
-         </Carousel></div>
+         </Carousel>
+         </div>
 		)
 	}
 }

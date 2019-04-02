@@ -13,9 +13,10 @@ import Header from './common/header/index';
 import Nav from './common/nav/index';
 import Login from './pages/login/index';
 import CartOne from './pages/cartOne/index'
+import Detail from './pages/detail/index'
 import Home from './pages/home/index';
 import { homepage } from '../package.json';
-console.log(homepage)
+
 const history = createHistory({
     basename: homepage
   })
@@ -24,10 +25,10 @@ const PrimaryLayout = props => {
     <div className="primary-layout">
       <main>
         <Switch>
-          <Route path="/"  exact component={HomeP} />
-					<Route path="/layout"  component={HomeLayout} />
-					<Route path="/cart"  component={cartLayout} />
-					<Route path="/users"  component={UserSubLayout} />
+         <Route path="/" exact component={Home}/>
+          <Route path="/sort"  component={HomeLayout} />
+		  <Route path="/cart"  component={cartLayout} />
+		  <Route path="/users"  component={UserSubLayout} />
           <Route path="/login"  component={Login} />
           <Redirect to="/" />
         </Switch>
@@ -35,14 +36,13 @@ const PrimaryLayout = props => {
     </div>
   )
 }
-const PrimaryHeader = () => (
-<div><Header /><Nav /></div>
-)
-const HomeP=()=>{
+const HomeLayout=({match})=>{
 	return(
 		<div>
-			<PrimaryHeader />
-			<Home />
+		<Header /><Nav />
+	  	<Switch>
+			<Route  path={`${match.path}/detail/:id`} component={Detail} />
+		</Switch>
 		</div>
 	)
 }
@@ -56,17 +56,7 @@ const cartLayout=({match})=>{
 		</div>
 	)
 }
-const HomeLayout=({match})=>{
-	return(
-		<div>
-		  <PrimaryHeader />
-	  	<Switch>
-			<Route exact path={`${match.path}/home`} component={Home} />
-			<Route  path={`${match.path}/detail`} component={Detail} />
-		</Switch>
-		</div>
-	)
-}
+
 
 
 
@@ -104,7 +94,6 @@ const UserNav =() => <div>UserNav</div>
 const AddUserPage =() => <div>AddUserPage</div>
 const EditUserPage =() => <div>EditUserPage</div>
 const BrowseUsersPage=()=><div>用户主页</div>
-const Detail=()=><div>详情</div>
 class App extends Component {
 	render() {
 		return(<Provider store={store}>

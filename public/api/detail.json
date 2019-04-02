@@ -1,0 +1,204 @@
+{
+  "code" : 200,
+  "object" : {
+    "product" : {
+      "id" : "db048d66b89a417fbe2336bbab13381e",
+      "catalogId" : "1726451a676d423f8c354516fd5b793d",
+      "typeId" : "23251baca0a34ea4bbb321d8a235fdb8",
+      "seriesId" : "6ca09d7ab5ab427cbb4f7770cde81aec",
+      "brandId" : "1610aa29143f4f2ea00b4317f1c34eba",
+      "modelNo" : "OH/FL186",
+      "modelName" : "迪瑞克斯DXRacer LPL官方指定座椅 新美风电竞椅",
+      "modelTitle" : "迪瑞克斯DXRacer LPL官方指定座椅 新美风电竞椅",
+      "customNo1" : "",
+      "customNo2" : "",
+      "createTime" : 1539761450000,
+      "lastUpdate" : 1542861185000,
+      "status" : "Y",
+      "originalImg" : "model/800X800db048d66b89a417fbe2336bbab13381e20181017153049.jpg",
+      "modelImg" : "model/514X514db048d66b89a417fbe2336bbab13381e20181017153049.jpg",
+      "smallImg" : "model/84X84db048d66b89a417fbe2336bbab13381e20181017153049.jpg",
+      "salePrice" : 1699.00,
+      "video" : "XMTI3OTI3NzI2NA=="
+    },
+    "promotions" : [ ],
+    "crush" : [ ],
+    "productImageList" : [ {
+      "id" : "284f1bc8f6d94afbb0c7b007a1367640",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "listImg" : "modelimage/514X514284f1bc8f6d94afbb0c7b007a136764020181017154338.jpg",
+      "smallImg" : "modelimage/84X84284f1bc8f6d94afbb0c7b007a136764020181017154338.jpg",
+      "originImg" : "800X800284f1bc8f6d94afbb0c7b007a136764020181017154338.jpg",
+      "indexNum" : 1
+    }, {
+      "id" : "47de510957584469bcfc75d838a8bf9b",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "listImg" : "modelimage/514X51447de510957584469bcfc75d838a8bf9b20181017154349.jpg",
+      "smallImg" : "modelimage/84X8447de510957584469bcfc75d838a8bf9b20181017154349.jpg",
+      "originImg" : "800X80047de510957584469bcfc75d838a8bf9b20181017154349.jpg",
+      "indexNum" : 2
+    }, {
+      "id" : "0676265902de485f856542f753a893cc",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "listImg" : "modelimage/514X5140676265902de485f856542f753a893cc20181017154410.jpg",
+      "smallImg" : "modelimage/84X840676265902de485f856542f753a893cc20181017154410.jpg",
+      "originImg" : "800X8000676265902de485f856542f753a893cc20181017154410.jpg",
+      "indexNum" : 3
+    }, {
+      "id" : "1d7d834b2aa84fd69642fced1630c66f",
+      "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+      "listImg" : "modelimage/514X5141d7d834b2aa84fd69642fced1630c66f20181017154419.jpg",
+      "smallImg" : "modelimage/84X841d7d834b2aa84fd69642fced1630c66f20181017154419.jpg",
+      "originImg" : "800X8001d7d834b2aa84fd69642fced1630c66f20181017154419.jpg",
+      "indexNum" : 4
+    } ],
+    "productItemList" : [ {
+      "id" : "0456b1c9b3014bea9f548990a5a7082e",
+      "productId" : "db048d66b89a417fbe2336bbab13381e",
+      "itemNo" : "GC-V05-IWR-C1",
+      "itemName" : "",
+      "itemTitle" : "",
+      "status" : "published",
+      "customNo1" : "OH/VC05/IWR",
+      "customNo2" : "",
+      "createTime" : 1539761537000,
+      "lastUpdate" : 1539761537000,
+      "productModelAttrs" : "b8fdbf0f9c4044369fcbc7568a4cbc77",
+      "isDeleted" : "N",
+      "salePrice" : 2099.00,
+      "listImg" : "modelcolor/514X514b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+      "originImg" : "modelcolor/800X800b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+      "smallImg" : "modelcolor/84X84b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg"
+    }, {
+      "id" : "b77253b2bc4f44989bc54c7141a3b4da",
+      "productId" : "db048d66b89a417fbe2336bbab13381e",
+      "itemNo" : "GC-F186-IWR-L1-26",
+      "itemName" : "",
+      "itemTitle" : "",
+      "status" : "published",
+      "customNo1" : "OH/FL186/IWR",
+      "customNo2" : "",
+      "createTime" : 1539761481000,
+      "lastUpdate" : 1539761481000,
+      "productModelAttrs" : "b4ba01b4c82441d887ef3b2c15fd958d",
+      "isDeleted" : "N",
+      "salePrice" : 1699.00,
+      "listImg" : "modelcolor/514X514b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+      "originImg" : "modelcolor/800X800b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+      "smallImg" : "modelcolor/84X84b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg"
+    }, {
+      "id" : "bc9f4eacb4d34b49b1e6ece330332416",
+      "productId" : "db048d66b89a417fbe2336bbab13381e",
+      "itemNo" : "GC-K186-IWR-S2",
+      "itemName" : "",
+      "itemTitle" : "",
+      "status" : "published",
+      "customNo1" : "OH/KS186/IWR",
+      "customNo2" : "",
+      "createTime" : 1539761514000,
+      "lastUpdate" : 1539761514000,
+      "productModelAttrs" : "d28124bc35004452b6b65de01337ff55",
+      "isDeleted" : "N",
+      "salePrice" : 2099.00,
+      "listImg" : "modelcolor/514X514d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+      "originImg" : "modelcolor/800X800d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+      "smallImg" : "modelcolor/84X84d28124bc35004452b6b65de01337ff5520181017155931.jpg"
+    }, {
+      "id" : "d855058e8fc84f319692daccd9b8e6ce",
+      "productId" : "db048d66b89a417fbe2336bbab13381e",
+      "itemNo" : "GC-R85-IWR-Z1-26",
+      "itemName" : "",
+      "itemTitle" : "",
+      "status" : "published",
+      "customNo1" : "OH/RZ85/IWR",
+      "customNo2" : "",
+      "createTime" : 1539761526000,
+      "lastUpdate" : 1539761526000,
+      "productModelAttrs" : "5b3e7e66a07340aeb79cc6ecdccca266",
+      "isDeleted" : "N",
+      "salePrice" : 1699.00,
+      "listImg" : "modelcolor/514X5145b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+      "originImg" : "modelcolor/800X8005b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+      "smallImg" : "modelcolor/84X845b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg"
+    } ],
+    "inventory" : [ {
+      "id" : "46f0a05d72ea41579d8d040574fba154",
+      "skuId" : "0456b1c9b3014bea9f548990a5a7082e",
+      "quantity" : 0,
+      "lockQuantity" : 0,
+      "warehouse" : "814ff096d4d846d9b67f038649d0361e",
+      "lastUpdate" : 1554190800000
+    }, {
+      "id" : "c2c0c8cc73d64e32a483c406d66d81a4",
+      "skuId" : "b77253b2bc4f44989bc54c7141a3b4da",
+      "quantity" : 6,
+      "lockQuantity" : 0,
+      "warehouse" : "814ff096d4d846d9b67f038649d0361e",
+      "lastUpdate" : 1554190801000
+    }, {
+      "id" : "8cd9641336b04f95b6ec665c3d9ae56c",
+      "skuId" : "bc9f4eacb4d34b49b1e6ece330332416",
+      "quantity" : 13,
+      "lockQuantity" : 0,
+      "warehouse" : "814ff096d4d846d9b67f038649d0361e",
+      "lastUpdate" : 1554190801000
+    }, {
+      "id" : "6e853d43199349a880c087fc53993fa5",
+      "skuId" : "d855058e8fc84f319692daccd9b8e6ce",
+      "quantity" : 0,
+      "lockQuantity" : 0,
+      "warehouse" : "814ff096d4d846d9b67f038649d0361e",
+      "lastUpdate" : 1554190802000
+    } ],
+    "productAttrList" : [ {
+      "attrKey" : {
+        "id" : "acdec7b087814436a54785971a6777a2",
+        "catalogId" : "1726451a676d423f8c354516fd5b793d",
+        "catalogAttrValue" : "颜色",
+        "indexNum" : 1,
+        "isColorAttr" : "Y"
+      },
+      "attrValues" : [ {
+        "id" : "b4ba01b4c82441d887ef3b2c15fd958d",
+        "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+        "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+        "modelAttrValue" : "FL186",
+        "indexNum" : 1,
+        "isDeleted" : "N",
+        "listImg" : "modelcolor/514X514b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+        "smallImg" : "modelcolor/84X84b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg",
+        "originImg" : "modelcolor/800X800b4ba01b4c82441d887ef3b2c15fd958d20181017155918.jpg"
+      }, {
+        "id" : "d28124bc35004452b6b65de01337ff55",
+        "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+        "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+        "modelAttrValue" : "KS186",
+        "indexNum" : 2,
+        "isDeleted" : "N",
+        "listImg" : "modelcolor/514X514d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+        "smallImg" : "modelcolor/84X84d28124bc35004452b6b65de01337ff5520181017155931.jpg",
+        "originImg" : "modelcolor/800X800d28124bc35004452b6b65de01337ff5520181017155931.jpg"
+      }, {
+        "id" : "5b3e7e66a07340aeb79cc6ecdccca266",
+        "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+        "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+        "modelAttrValue" : "RZ85",
+        "indexNum" : 3,
+        "isDeleted" : "N",
+        "listImg" : "modelcolor/514X5145b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+        "smallImg" : "modelcolor/84X845b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg",
+        "originImg" : "modelcolor/800X8005b3e7e66a07340aeb79cc6ecdccca26620181017155958.jpg"
+      }, {
+        "id" : "b8fdbf0f9c4044369fcbc7568a4cbc77",
+        "productModelId" : "db048d66b89a417fbe2336bbab13381e",
+        "catalogAttrId" : "acdec7b087814436a54785971a6777a2",
+        "modelAttrValue" : "VC06",
+        "indexNum" : 4,
+        "isDeleted" : "N",
+        "listImg" : "modelcolor/514X514b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+        "smallImg" : "modelcolor/84X84b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg",
+        "originImg" : "modelcolor/800X800b8fdbf0f9c4044369fcbc7568a4cbc7720181017160006.jpg"
+      } ]
+    } ]
+  }
+}

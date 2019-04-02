@@ -13,7 +13,7 @@ import { connect } from 'react-redux';
 import{actionCreators} from './store'
 class Home extends Component {
 	render() {
-		const {basictype,hotitem	} = this.props;
+		const {basictype,hotitem} = this.props;
 		return(
 			<HomeWrapper>
 			<Banner />
@@ -21,7 +21,7 @@ class Home extends Component {
 			{
 				basictype.map((item, index) => {
 					return (
-							<Link key={index} to={'/detail/' + item.get('id')} className="li">
+							<Link key={index} to={'/sort/detail/' + item.get('id')} className="li">
 								<img alt={item.get('list').get('type_name')}  src={global.constants.baseUrl+item.get('list').get('img_url')} />
 							   <span className="normol">	{item.get('list').get('type_name')}</span>
 							</Link>
@@ -35,7 +35,7 @@ class Home extends Component {
 								return (
 									<li  key={index}>
 									<em>HOT</em>
-										<Link to={'/detail/' + item.get('id')} >
+										<Link to={'/sort/detail/' + item.get('list').get('product_id')} >
 											<img alt={item.get('list').get('type_name')}  src={global.constants.baseUrl+item.get('list').get('img_url')} />
 										   <h6>	{item.get('list').get('model_no')}</h6>
 											 						   <p>	{item.get('list').get('describe1')}</p>

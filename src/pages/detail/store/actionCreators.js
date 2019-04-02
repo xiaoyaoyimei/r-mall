@@ -1,13 +1,14 @@
 import * as  constants from './constants';
 import axios from 'axios';
-export const detail=(result)=>({
+export const detailInfo=(result)=>({
 	 type:constants.DEATIL,
 	 result
 })
-export const getDetail=(id)=>{
+export const getDetail=()=>{
 		return (dispatch)=>{
-			axios.get(`/api/article/detail?id=${id}`).then((res)=>{
-				dispatch(detail(res.data.datas))
+			axios.get(`api/detail.json`).then((res)=>{
+				dispatch(detailInfo(res.data.object))
 			})
+
 	   }
 }
