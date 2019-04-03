@@ -8,13 +8,17 @@ import {
 Ul,Hot,One
 } from './style';
 import Banner from './components/Banner';
-
+import Header from '../../common/header/index';
+import Nav from '../../common/nav/index';
 import { connect } from 'react-redux';
 import{actionCreators} from './store'
 class Home extends Component {
 	render() {
 		const {basictype,hotitem} = this.props;
 		return(
+			<div>
+			<Header />
+			<Nav />
 			<HomeWrapper>
 			<Banner />
 			<Ul>
@@ -47,6 +51,7 @@ class Home extends Component {
 						}</One>
 
 			   </HomeWrapper>
+			   </div>
 		)
 	}
 	componentDidMount(){

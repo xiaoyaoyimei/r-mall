@@ -9,39 +9,49 @@ import {
 	Content
 } from './style';
 import {actionCreators}from './store'
+import { message } from 'antd';
+const hide= message.loading('Action in progress..', 0);
 class Detail extends Component {
+   
+	switchbig(pic,event){
+     this.props.shangp.product.modelImg=pic;
+	}
 	render() {
-		{/*const {content}=this.props;
-		let wen='',title='';
-		if(content.length>0){
-			title=content[0].title;
-			 wen=content[0].content;
-		}
-		return(
-			<DetailWrapper>这是详情页<Title>{title}</Title>
-			<Content>{wen}</Content></DetailWrapper>
-		)*/}
-			const { product } = this.props;
-	
-//		const newproduct=product.toJS();
+		 const { shangp } = this.props;
+		if(shangp.product){
 		return(
 			<DetailWrapper>
 			<div className="spec">
 			<div className="big">
-			
+			       	<img alt="小图片" className="r" src={global.constants.baseUrl+shangp.product.modelImg}/>
 			</div>
+			<ul className="small">
+			    {
+          shangp.productImageList.map((item, index) => {
+              return(
+                <li  key={index} onClick={this.switchbig.bind(this,item.listImg)}>
+                	<img alt="小图片" src={global.constants.baseUrl+item.smallImg}/>
+                  </li>
+                )
+               })
+           }
+	
+			</ul>
 			</div>
 			<div></div>
-			</DetailWrapper>
-		)
+			</DetailWrapper>)}
+		 else{
+		 	return null
+		 }
+
 	}
 		componentDidMount(){
-			console.log(this.props.match.params.id)
 			this.props.getDetail();
+			hide();
 	}
 }
 const mapState = (state) => ({
-	product:state.getIn(['detail', 'product']),
+	shangp:state.getIn(['detail', 'shangp']),
 });
 const mapDispatch=(dispatch)=>({
 	getDetail(){

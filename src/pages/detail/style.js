@@ -17,4 +17,11 @@ export const DetailWrapper = styled.div `
     margin-bottom: 23px;
     position: relative;
 	}
+	.small{
+		li{
+			cursor: pointer;
+    float: left;
+    border: 1px solid transparent;
+		}
+	}
 `
