@@ -4,6 +4,10 @@ export const detailInfo=(result)=>({
 	 type:constants.DEATIL,
 	 result
 })
+export const changeBig=(result)=>({
+	type:constants.CHANGEBIG,
+	result
+})
 export const getDetail=()=>{
 		return (dispatch)=>{
 			axios.get(`api/detail.json`).then((res)=>{

@@ -12,13 +12,13 @@ import {actionCreators}from './store'
 import { message } from 'antd';
 const hide= message.loading('Action in progress..', 0);
 class Detail extends Component {
-   
-	switchbig(pic,event){
-     this.props.shangp.product.modelImg=pic;
-	}
+ 
+//	switchbig(pic,event){
+//   this.props.shangp.product.modelImg=pic;
+//	}
 	render() {
 		 const { shangp } = this.props;
-		if(shangp.product){
+	if(shangp.product.modelImg!=""){
 		return(
 			<DetailWrapper>
 			<div className="spec">
@@ -29,7 +29,7 @@ class Detail extends Component {
 			    {
           shangp.productImageList.map((item, index) => {
               return(
-                <li  key={index} onClick={this.switchbig.bind(this,item.listImg)}>
+                <li  key={index} onClick={() => {this.props.toggleDraw(item.listImg)}}>
                 	<img alt="小图片" src={global.constants.baseUrl+item.smallImg}/>
                   </li>
                 )
@@ -42,7 +42,7 @@ class Detail extends Component {
 			</DetailWrapper>)}
 		 else{
 		 	return null
-		 }
+		}
 
 	}
 		componentDidMount(){
@@ -56,6 +56,9 @@ const mapState = (state) => ({
 const mapDispatch=(dispatch)=>({
 	getDetail(){
 		dispatch(actionCreators.getDetail())
+	},
+	toggleDraw(img){
+		dispatch(actionCreators.changeBig(img))
 	}
 })
 export default connect(mapState,mapDispatch)(Detail);
